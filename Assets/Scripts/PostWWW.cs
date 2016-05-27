@@ -6,7 +6,7 @@ public class WWWFormImage : MonoBehaviour {
 
 	public Text location_field;
 	public Text description_field;
-
+	public GameObject gps;
 	public string point_url = "http://direccio-ip:port/codi.pl";
 
 

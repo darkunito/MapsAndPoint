@@ -4,11 +4,13 @@ using System.Collections;
 public class DownloaderImage : MonoBehaviour {
 
     public GameObject Plane;
+	public GameObject Items;
 
+	public float longUsu { get; set; }
 
-    public GameObject Items;
+	public float latUsu { get; set;}
 
-	// Use this for initialization
+	// Use this for initialition
 	IEnumerator Start () {
 
         Plane.transform.position = new Vector3(Plane.transform.localScale.x / 2, Plane.transform.localScale.z / 2, 0);
@@ -37,7 +39,7 @@ public class DownloaderImage : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 
     public struct Point {
